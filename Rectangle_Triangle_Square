@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main() 
+{
+	double length;
+	double width;
+
+	cout << "Enter length: " << endl;
+	cin >> length;
+
+	cout << "Enter width: " << endl;
+	cin >> width;
+
+	double rec = length * width;
+	double tri = (length * width) / 2;
+	double squ = length * length;
+
+	cout << "With the given dimensions, we can see that:\n" << "Rectangle area = " << rec << "\n" << "Triangle area = " << tri << "\n" << "Square area (taking only length into account) = " << squ;
+
+	return 0;
+}
